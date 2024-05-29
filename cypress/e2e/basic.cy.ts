@@ -5,10 +5,10 @@ describe('empty spec', () => {
 
   it('display header text', () => {
     cy.get('h1')
-    .contains('Hello World!', { matchCase: false })
+    .contains('Cris Andrei Resto', { matchCase: false })
   })
 
-  it('displays Click button', () => {
+  it('displays Click ', () => {
     cy.get('button')
     .contains('Clicks');
   })
